@@ -1,0 +1,129 @@
+/* Patch - IE 7 */
+
+/* Global */
+.full-page, .full-page-holder{cursor: default;}
+a.action { height: 1%; }
+.input-button, .input-submit { padding: 4px 10px 1px; }
+input.mini {padding:4px 2px 1px;}
+input.large {padding:5px 10px 2px;}
+/* Navigation */
+
+.navigation .menu-title a {blr:expression(this.onFocus=this.blur());}
+
+.menu-dropdown{width:269px;}
+.dropmenu-holder .rounded-box {width:423px;}
+.rounded-box .corner.br{zoom:1;}
+.drop-nff {width:102px;}
+#moreAppShortcuts .side-item-body{padding-bottom:14px;}
+
+/* Drop Down Menu */
+.menu-dropdown-border{position:relative;}
+
+/* Profile */
+.profile .left-column { cursor: default; }  /* left-column */
+.profile .profile-summary dl.info dt, .profile .profile-summary dl.info dd { line-height: 15px; }
+.profile .profile-blog li span.small .pipe, .profile .profile-share li span.small .pipe { margin: 0 3px; }
+
+/* Comment List */
+.comment .super-actions { padding-top: 0; }
+
+/* Feed */
+.feed-icon{ padding-top: 16px; }
+.profile .feed-icon{ padding-top: 16px; }
+
+/*	Developer Site */
+.opi-apps .opi-content .feedbody .photo-box a {margin:0 2px 0 0;}
+.feed-content p.quote {zoom:1;}
+
+/*  Home */
+.home .side-item .icon-list.two-column li {background-position: 0 2px;}
+.home .pymk .side-item-body .people-list li span a.x-to-hide {margin-top:0;}
+.admin-menu a {width:110px;}
+.home .footprint .people-list li span.olname a {float:left;width:3.3em;}
+.home .feed-filter a {blr:expression(this.onFocus=this.blur());}
+.home .full-page{padding-bottom:1px;}
+
+/* Login Page */
+.login .search-friends .go {line-height: 23px;}
+.full-login .login-panel p.clearfix label {margin-top:7px;}
+.full-login .login-panel p.right .float-right {margin-top:4px;}
+.full-login .messages_div {line-height:4em;}
+.welcome .open-search .search-input #friendname { height: 13px;}
+
+/* Image Button */
+.imgbtn-1 {padding: 3px 0 3px 20px;}
+.imgbtn-1 span{padding: 5px 10px 5px 0;}
+
+/* Publisher */
+.m-composer-channel li{padding-bottom:6px;}
+.m-composer-channel li.select{padding-bottom:0;}
+.m-composer-header .statuspanel .morestatus{ padding-top:5px;}
+
+/* Style For Invited Friend Reply */
+.fri-invite input[type="checkbox"]{margin:-4px;}
+
+/*chat*/
+.m-chat-tabbar .chattip .chattip-for{ width:33px;}
+.m-chat-tabbar .chattip .chattip-content{ height:15px; line-height:15px;}
+
+/*optionmenu*/
+.menu-dropdown.optionmenu{ width:124px;}
+
+/*newfeedoption*/
+.nff  .nff_content .nff_modeselect .menu-item .inlinemode{ background-position:10px -35px;}
+.nff  .nff_content .nff_modeselect .menu-item .inlinemode.selected,
+.nff  .nff_content .nff_modeselect .menu-item .inlinemode:hover{ color:#fff; background-color:#899bc1; background-position:10px 7px;}
+.nff  .nff_content .nff_modeselect .menu-item #feedNormal.inlinemode.current{ background-position:10px -15px; }
+.nff  .nff_content .nff_modeselect .menu-item #feedNormal.inlinemode.current:hover{ background-position:10px -56px; }
+
+.nff  .nff_content .nff_modeselect .menu-item .fullmode{ background-position:10px -124px;}
+.nff  .nff_content .nff_modeselect .menu-item .fullmode.selected,
+.nff  .nff_content .nff_modeselect .menu-item .fullmode:hover{ color:#fff; background-color:#899bc1; background-position:10px -79px;}
+.nff  .nff_content .nff_modeselect .menu-item .fullmode.current{ background-position:10px -102px; }
+.nff  .nff_content .nff_modeselect .menu-item .fullmode.current:hover{ background-position:10px -148px;}
+
+
+/*home addfriend icons*/
+.home .home-sidebar .side-item .people-list li span a.addfriend_action{ margin-top:3px}
+
+
+.friendsgroup-sidebar .friendsgroup-list li.select a,
+.friendsgroup-sidebar .friendsgroup-list li.select a:hover{ background-position:10px 3px!important}
+
+/*home showprogress*/
+.showprogress .infoaltbox{width:170px; margin-top:-118px}
+ .showprogress .infoaltbox.s1{margin-left:72px;margin-top:-118px}
+ .showprogress .infoaltbox.s2{ margin-top:-80px;}
+  .showprogress .infoaltbox .altcontent dl.myinfolist dt{ padding-top:3px}
+
+/**pop windows**/
+td.pop_content h2 span {padding:6px 10px 4px;}
+
+/**ablum**/
+#pageAlbum.album .full-page-holder {clear:both;}
+
+*+html td.pop_content .dialog_summary ul.classlist li input.floatleft{margin:0;margin-top:3px}
+*+html .share_popup .toggle_tabs li a{padding:5px 15px 2px}
+*+html div.nav-tabs ul.tabs li {display:inline;float:left;}
+*+html .twin_comment_holder label input{margin:0;padding:0;vertical-align:middle}
+*+html .m-chat-window.notifications .chat-conv .notifyitem .notifyico{margin-top:6px}
+*+html .m-chat-window .chat-info .chat-info-status{text-overflow:ellipsis;white-space:nowrap;overflow: hidden}
+*+html .m-chat-window .chat-input{padding-top:2px}
+*+html .m-chat-window.buddy-list{margin-left:-97px}
+*+html .m-chat-window.buddy-list .chat-conv{padding-right:}
+*+html c1, *+html c.tl {
+	left:expression(function(ele,pStyle){var lb=parseInt(pStyle.borderLeftWidth);ele.style.left=lb?("-"+lb+"px"):"0";}(this,this.parentNode.currentStyle));
+	top:expression(function(ele, pStyle){var tb=parseInt(pStyle.borderTopWidth);ele.style.top=tb?("-"+tb+"px"):"0";}(this,this.parentNode.currentStyle));
+}
+*+html c2, *+html c.tr {
+	top:expression(function(ele,pStyle){var tb=parseInt(pStyle.borderTopWidth);ele.style.top=tb?("-"+tb+"px"):"0";}(this,this.parentNode.currentStyle));
+	right:expression(function(ele,pStyle){var rb=parseInt(pStyle.borderRightWidth);ele.style.right=rb?("-"+rb+"px"):"0";}(this,this.parentNode.currentStyle));
+}
+*+html c3, *+html c.br {
+	right:expression(function(ele,pStyle){var rb=parseInt(pStyle.borderRightWidth);ele.style.right=rb?("-"+rb+"px"):"0";}(this,this.parentNode.currentStyle));
+	bottom:expression(function(ele,pStyle){var bb=parseInt(pStyle.borderBottomWidth);ele.style.bottom=bb?("-"+bb+"px"):"0";}(this,this.parentNode.currentStyle));
+}
+*+html c4, *+html c.bl {
+	bottom:expression(function(ele,pStyle){var bb=parseInt(pStyle.borderBottomWidth);ele.style.bottom=bb?("-"+bb+"px"):"0";}(this,this.parentNode.currentStyle));
+	left:expression(function(ele,pStyle){var lb=parseInt(pStyle.borderLeftWidth);ele.style.left=lb?("-"+lb+"px"):"0";}(this,this.parentNode.currentStyle));
+}

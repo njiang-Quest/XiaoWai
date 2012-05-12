@@ -1,0 +1,204 @@
+/* Patch - IE 6 */
+
+/*	Developer Site */
+.opi-apps .opi-content .feedbody .photo-box a {margin:0 2px 0 0;}
+
+/*  Global */
+ol.pageclip li a { padding-bottom: 4px;}
+.input-button, .input-submit { padding: 3px 10px; }
+input.mini {padding:1px 2px;}
+input.large {padding:5px 10px 2px;}
+
+/*	Navigation */
+.menu-dropdown .menu-item a, a.action, .new-pop-up .inner a {height:1%;}
+#navSearch #search-input #navSearchInput { height: 13px; }
+.navigation .menu-title.with-arrow a{padding-right:17px !important;}
+.navigation .nav-other .last {margin-right:5px;}
+.navigation .menu{overflow:hidden;}
+.menu-dropdown{width:269px;}
+.drop-nff {width:102px;}
+.dropmenu-holder .rounded-box {width:423px;}
+.rounded-box .corner.br{zoom:1;}
+.menu-dropdown .all-app {padding-bottom:0;}
+
+.menu-dropdown.search-menu{ width:110px;}
+.menu-dropdown .search-menu li{ height:1em;}
+.navigation .menu-title a {blr:expression(this.onFocus=this.blur());}
+p img {  }
+
+/* Drop Down Menu */
+.menu-dropdown-border{position:relative;}
+
+/* Feed */
+.feed-content p.quote { zoom:1 }
+.hide-png {display:none;}
+.png-img {cursor:pointer;}
+
+
+/* info tab */
+.profile .info-tab {zoom:1;}
+.profile .info-tab .info-edits {zoom:1;}
+.profile .profile-tabs ul.tabs li.selected a:hover { color: #000; }
+.profile .left-column .box-holder .box .box-body { width: 183px; }
+.profile .info-tab .info-section-head h4 {height:1%;}
+/* Profile Single Column */
+.profile.single-column .right-column {width:800px !important;padding:0 !important;}
+.profile.single-column .profile-tabs {width:930px !important;padding:0 !important;}
+/* Profile */
+.profile .profile-summary dl{width:180px;}
+.profile .right-column-holder {height:680px;}
+.profile .profile-gift .gift-holder {margin:10px;}
+/* comment */
+.comment {padding-top: 0;}
+.comment .actor-img, .comment .cmt-body { padding-top: 10px; }
+.comment .cmt-body .text-content { }
+.comment .super-actions .arrow:hover { background-position: 0 -16px;}
+.comment .super-actions .arrow { overflow: hidden; }
+/* Left Column Shares */
+.profile .profile-blog li span.small, .profile .profile-share li span.small { zoom: 1;}
+
+/* Album */
+.piclist { height: 1%; }
+.uploadphoto .multuploadalt .bottomangle{ bottom:-38px!important;}
+
+/* Home */
+.home .home-sidebar .side-item .icon-list li a {zoom:1;}
+.home .home-sidebar .birthdays li a {zoom:1;}
+.home .pymk .side-item-body .people-list li span a.x-to-hide {margin-top:2px;}
+.home .pymk .side-item-body .people-list li span a.x-to-hide:hover {zoom:1;}
+.home .section-header{clear:both;}
+.admin-menu a {width:110px;}
+.home .footprint .people-list li span.olname a {float:left;width:3.3em;}
+.home .feed-filter a {blr:expression(this.onFocus=this.blur());}
+.home .blank-bar{display:inline;}
+.home .sidebar-holder{height:1px;}
+.home .full-page{padding-bottom:1px;}
+/* Resize The Image in Blog-tab */
+.blog-tab .blog-body img {width: expression(this.width > 550 ? 550: true);}
+
+/* Login Page */
+.login .search-friends .go {line-height: 23px;}
+.full-login .login-panel p .input-text {width:218px;}
+.full-login .login-panel p.right .float-right {margin-top:3px;}
+.full-login .messages_div {line-height:4em;}
+.welcome .open-search .search-input #friendname { height: 13px;}
+
+/* Register Page */
+#pageRegister fieldset {padding-top:6px;}
+#container.pageregister .compatible #content .form-register .labelRadio {width:40px !important;}
+#container.pageregister .compatible #content .form-register .labelRadio input#gender {float:left !important;}
+
+/* Publisher */
+.m-composer-content .blog-composer dt {width:39px;}
+.m-composer-header .statuspanel .morestatus{ padding-top:3px;}
+
+.m-composer-header .statuspanel .status-composer-bubble .status-composer-bubble-btn .input-button{ margin-top:0;}
+/* DelBox Of Status Reply */
+.statuscommentbox span.delbox .close{width:14px;height:14px;}
+
+/* Publisher */
+.m-composer-channel li{padding-bottom:6px;}
+.m-composer-channel li.select{padding-bottom:0;}
+
+/* Style For Invited Friend Reply */
+.fri-invite .fri-action{margin-left: 10px;}
+.fri-invite .fri-action p.checkbox{margin:-4px 0 0 -4px;}
+
+.menu-dropdown.optionmenu{ width:124px;}
+
+/*encrpyAlbum*/
+.album-list .info p.inputupsw .input-button{width:auto;_width:0;_height:0; padding:2px 15px; overflow:visible;}
+
+/*home showprogress*/
+.showprogress{ padding-left:2px}
+.m-composer-header .statuspanel{ margin-bottom:0; padding-bottom:16px;}
+.showprogress .infoaltbox{width:170px;}
+.showprogress .infoaltbox.s1{margin-left:72px}
+
+/* Pager */
+
+/*hack ime for ie6*/
+.chattip{
+	_width:40px;
+}
+.m-chat-button-con {margin-bottom: -2px;}
+.m-chat-button-status,.m-chat-button-notifications{
+	_width:20px;
+	_padding:6px 4px 3px 5px;
+}
+.chat-conv{
+	_width:226px;
+}
+.buddy-list .chat-conv, .m-chat-button-status .chat-conv{
+	_width:200px;
+}
+.notifications .chat-conv{
+	_width:270px;
+}
+.chattab-name{
+	_float:left;
+}
+#wpiroot{
+	_height:25px;
+	_padding:0;
+	_border:none;
+	_background:none;
+}
+.m-chat-button-apps {z-index:100;}
+.m-chat-window.buddy-list .chat-conv {
+	_height:200px;
+	_overflow-y:scroll;
+	_overflow-x:hidden;
+}
+.m-chat-window.notifications .chat-conv {
+	_height:200px;
+	_overflow-y:scroll;
+	_overflow-x:hidden;
+}
+.m-chat-chattab .m-chat-button-hover{
+	_background-image:none;
+}
+.m-chat-button-chattab{
+	_width:126px;
+}
+.available-dot, .im-available-dot{
+	_margin-right:15px;
+}
+* html .m-chat-tabbar {_position:absolute;}
+*html td.pop_content .dialog_summary ul.classlist li input.floatleft{margin:0;margin-top:3px}
+*html .share_popup .toggle_tabs li a{padding:3px 15px}
+*html .bottom {border-top:1px solid #CCC;margin-top:10px}
+*html .pagerpro li a.chn:hover{border-bottom:0 solid #005eac}
+*html div.nav-tabs ul.tabs li.selected {position: relative;}
+*html .tooltip .headangle,
+*html .tooltip .footangle {overflow:hidden;font-size:0;line-height:0;zoom:1;}
+*html div.nav-tabs ul.tabs li {display:inline;float:left;}
+*html .twin_comment_holder label input{margin:0;padding:0;vertical-align:middle}
+*html .m-allchattab{max-width:873px}
+*html .m-chat-presence .offline{border-left:1px solid #e5e5e5;margin-bottom:-2px;}
+*html .m-chat-windowshadow{margin-left:-102px}
+*html .m-chat-button-status .m-chat-window .chat-conv {height:90px;}
+*html .m-chat-button-notifications .m-chat-window .chat-conv {height:190px;}
+*html .m-chat-button-onlinefriends .m-chat-window .chat-conv {height:190px;}
+*html .m-chat-window.notifications .chat-conv .notifyitem{zoom:1;}
+*html .m-chat-window.notifications .chat-conv .notifyitem .notifyico{margin-top:8px}
+*html .chatnote .chattip{margin-top:-34px}
+*html .pager-top span {padding-bottom:5px}
+*html .pager-top span {padding-bottom:4px}
+html .pagerpro li a.chn:hover{border-bottom:0 solid #005eac}
+*html c1, *html c.tl {
+	left:expression(function(ele,pStyle){var lb=parseInt(pStyle.borderLeftWidth);ele.style.left=lb?("-"+lb+"px"):"0";}(this,this.parentNode.currentStyle));
+	top:expression(function(ele, pStyle){var tb=parseInt(pStyle.borderTopWidth);ele.style.top=tb?("-"+tb+"px"):"0";}(this,this.parentNode.currentStyle));
+}
+*html c2, *html c.tr {
+	top:expression(function(ele,pStyle){var tb=parseInt(pStyle.borderTopWidth);ele.style.top=tb?("-"+tb+"px"):"0";}(this,this.parentNode.currentStyle));
+	right:expression(function(ele, pStyle){var rb=parseInt(pStyle.borderRightWidth);ele.style.right=rb?("-"+((ele.parentNode.offsetWidth+parseInt(pStyle.borderLeftWidth)+rb)%2==1?rb+1:rb)+"px"):"0";}(this,this.parentNode.currentStyle));
+}
+*html c3, *html c.br {
+	right:expression(function(ele,pStyle){var rb=parseInt(pStyle.borderRightWidth);ele.style.right=rb?("-"+((ele.parentNode.offsetWidth+parseInt(pStyle.borderLeftWidth)+rb)%2==1?rb+1:rb)+"px"):"0";}(this,this.parentNode.currentStyle));
+	bottom:expression(function(ele,pStyle){var bb=parseInt(pStyle.borderBottomWidth);ele.style.bottom=bb?("-"+((ele.parentNode.offsetHeight+parseInt(pStyle.borderTopWidth)+bb)%2==1?bb+1:bb)+"px"):"0";}(this,this.parentNode.currentStyle));
+}
+*html c4, *html c.bl {
+	bottom:expression(function(ele,pStyle){var bb=parseInt(pStyle.borderBottomWidth);ele.style.bottom=bb?("-"+((ele.parentNode.offsetHeight+parseInt(pStyle.borderTopWidth)+bb)%2==1?bb+1:bb)+"px"):"0";}(this,this.parentNode.currentStyle));
+	left:expression(function(ele,pStyle){var lb=parseInt(pStyle.borderLeftWidth);ele.style.left=lb?("-"+lb+"px"):"0";}(this,this.parentNode.currentStyle));
+

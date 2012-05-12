@@ -1,0 +1,132 @@
+A {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #1144aa
+}
+A:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A.graylink {
+	COLOR: #666666; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+A.graylink:visited {
+	COLOR: #666666; TEXT-ALIGN: center
+}
+A.graylink:hover {
+	FILTER: none; COLOR: #666666; TEXT-DECORATION: underline
+}
+BODY {
+	MARGIN: 0px
+}
+BODY {
+	FONT-SIZE: 12px; WORD-BREAK: break-all; TEXT-AUTOSPACE: ideograph-space; FONT-FAMILY: 宋体; TEXT-OVERFLOW: ellipsis; WORD-WRAP: break-word
+}
+FIELDSET {
+	MARGIN: 0px
+}
+FIELDSET {
+	FONT-SIZE: 12px; WORD-BREAK: break-all; TEXT-AUTOSPACE: ideograph-space; FONT-FAMILY: 宋体; TEXT-OVERFLOW: ellipsis; WORD-WRAP: break-word
+}
+FORM {
+	MARGIN: 0px
+}
+FORM {
+	FONT-SIZE: 12px; WORD-BREAK: break-all; TEXT-AUTOSPACE: ideograph-space; FONT-FAMILY: 宋体; TEXT-OVERFLOW: ellipsis; WORD-WRAP: break-word
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+INPUT {
+	MARGIN: 0px
+}
+INPUT {
+	FONT-SIZE: 12px; WORD-BREAK: break-all; TEXT-AUTOSPACE: ideograph-space; FONT-FAMILY: 宋体; TEXT-OVERFLOW: ellipsis; WORD-WRAP: break-word
+}
+LEGEND {
+	MARGIN: 0px
+}
+LEGEND {
+	FONT-SIZE: 12px; WORD-BREAK: break-all; TEXT-AUTOSPACE: ideograph-space; FONT-FAMILY: 宋体; TEXT-OVERFLOW: ellipsis; WORD-WRAP: break-word
+}
+OL {
+	FONT-SIZE: 12px; WORD-BREAK: break-all; TEXT-AUTOSPACE: ideograph-space; FONT-FAMILY: 宋体; TEXT-OVERFLOW: ellipsis; WORD-WRAP: break-word
+}
+P {
+	MARGIN: 0px
+}
+P {
+	FONT-SIZE: 12px; WORD-BREAK: break-all; TEXT-AUTOSPACE: ideograph-space; FONT-FAMILY: 宋体; TEXT-OVERFLOW: ellipsis; WORD-WRAP: break-word
+}
+SELECT {
+	MARGIN: 0px
+}
+SELECT {
+	FONT-SIZE: 12px; WORD-BREAK: break-all; TEXT-AUTOSPACE: ideograph-space; FONT-FAMILY: 宋体; TEXT-OVERFLOW: ellipsis; WORD-WRAP: break-word
+}
+TABLE {
+	FONT-SIZE: 12px; WORD-BREAK: break-all; TEXT-AUTOSPACE: ideograph-space; FONT-FAMILY: 宋体; TEXT-OVERFLOW: ellipsis; WORD-WRAP: break-word
+}
+TABLE {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+UL {
+	FONT-SIZE: 12px; WORD-BREAK: break-all; TEXT-AUTOSPACE: ideograph-space; FONT-FAMILY: 宋体; TEXT-OVERFLOW: ellipsis; WORD-WRAP: break-word
+}
+A:visited {
+	COLOR: #1144aa
+}
+.title1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #006464; TEXT-DECORATION: none
+}
+title1 A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #006464; TEXT-DECORATION: none
+}
+title1 A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #006464; TEXT-DECORATION: none
+}
+.title2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #b32225
+}
+title2 A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #b32225
+}
+title2 A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #b32225
+}
+.title3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #5b7e0a
+}
+title3 A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #5b7e0a
+}
+title3 A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #5b7e0a
+}
+.title4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000
+}
+title4 A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000
+}
+title4 A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000
+}
+.price1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #666666; TEXT-DECORATION: line-through
+}
+.price2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #990000
+}
+.white {
+	COLOR: #ffffff
+}
+.white A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.white A:visited {
+	COLOR: #ffffff
+}
+.white A:hover {
+	FILTER: none; COLOR: #ffffff; TEXT-DECORATION: underline
+}

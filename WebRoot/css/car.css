@@ -1,0 +1,230 @@
+.carbody{
+	width:800px; 
+	text-align:left;
+	font-size:12px;
+	color:#666;
+	margin:auto;
+}
+
+.cartop{
+	border-bottom:1px solid #7A7F89;
+	text-align:left;
+	padding-bottom:5px;
+}
+
+.cartop .help{
+	float:right;
+	margin:45px 10px 0 0;
+}
+
+.toppic{
+	height:40px;
+	margin-top:10px;
+}
+
+.toppic .jiesuan{
+	float:right;
+	margin:0 33px 10px 0;
+}
+
+.carlist{
+	border:1px solid #DCDFE5;
+	width:800px;
+	padding:1px;
+	text-align:center;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	
+}
+
+
+.signtab td, .carlist td{
+	font-size:12px;	
+	text-align:center;
+	color:#666;
+}
+
+.carlist td img{
+	margin-left:10px;
+}
+
+
+.firtd td{
+	color:white;
+}
+ 
+.car_sum{
+	border-top:1px solid #A5AFC3;
+	border-bottom:1px solid #A5AFC3;
+	padding:15px 0;
+	
+	color:#666;
+	margin:15px 0 13px 0;
+	text-align:left;
+}
+
+.bottom_jiesuan{
+	margin:0 0 15px 3px;
+}
+
+.car_faq{
+	border-bottom:1px solid #A5AFC3;
+	padding:20px 0 25px 20px;
+	line-height:150%;
+}
+a.carlink {
+	color: #333;
+	text-decoration:none;
+}
+
+a.carlink:hover{
+	color: #A10000;
+	text-decoration:underline;
+}
+
+.btm_pic{
+	text-align:center;
+	padding:20px 0;
+}
+
+.car_copyright{
+	text-align:center;
+	margin-top:0px;
+}
+
+.car_step{
+	padding:17px 0 15px 0;
+}
+
+.dark_red
+{
+	color:A10000;
+}
+.bold{
+	font-weight:bold;
+}
+
+.sign_col{
+	border:1px solid #DCDFE5;
+	width:380px;
+	height:300px;
+	text-align:left;
+}
+
+.sign_tit{
+	border-bottom:1px solid #565662;
+	width:340px;
+	margin:20px 0 0 20px;
+	padding: 0 0 3px 5px;
+}
+
+.signin_form{
+	margin:20px 0 0 50px;
+	padding:0;
+}
+
+.signin_form li{
+	list-style:none;
+	padding:0;
+}
+
+.dscrp{
+	color:#999;
+}
+
+.signin_form .sf{
+	width:170px;
+	height:22px;
+}
+
+.signup_dscrp{
+	color:#999;
+	margin:5px 0 0 97px;
+}
+
+.signup_form{
+	margin:20px 0 0 30px;
+	padding:0;
+}
+
+.signup_form li{
+	list-style:none;
+	padding:0;
+}
+
+.signup_form .sf{
+	width:170px;
+	height:22px;
+}
+
+form{
+	margin:0;
+	padding:0;
+}
+
+.red{
+	color:red;
+}
+
+.mode_col{
+	border-bottom:1px solid #ccc;
+	margin:0 0 10px 0;
+	padding:0 0 5px 0; 
+	font-weight:bold;
+	width:660px;
+	text-align:left;
+}
+
+.fl{
+	width:150px;
+	text-align:right;
+	font-size:12px;
+}
+
+.fr{
+	width:550px;
+	text-align:left;
+	padding-left:10px;
+	font-size:12px;
+}
+
+
+.mode_pr_tab td{
+	height:20px;
+}
+ 
+.mode_pr_tab{
+	color:666;
+	font-size:12px;
+}
+
+.read_pr{
+	border:0;
+	font-size:13px; 
+	font-weight:bold; 
+	color:#990000;
+}
+
+.read_pr1{
+	font-size:14px; 
+	font-weight:bold; 
+	color:#990000;
+}
+
+.odr_ok_d{
+	width:700px;
+	text-align:center;
+	padding:40px 0 60px 0;
+	margin:auto;
+}
+.odr_ok_p{
+	line-height:160%;
+	text-align:left;
+	width:400px;
+	margin:auto;
+}
+
+.ok_pr{
+	color:#990000;
+	font-size:14px;
+	font-weight:bold;
+}

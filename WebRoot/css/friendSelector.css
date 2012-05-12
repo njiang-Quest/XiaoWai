@@ -1,0 +1,116 @@
+﻿/* CSS Document */
+.friendAutoSelector{vertical-align:top;position:relative;width:280px}
+.friendAutoSelector .inputRst{padding-left:10px;}
+.frsAutoUp,
+.frsAutoDown{background-image:url(/imgpro/arrow/scroll_down_yellow.gif);background-repeat:no-repeat;background-position:right center;width:9px; height:9px; display:inline-block; cursor:pointer;padding:5px 0;margin:0 0 -6px 5px;}
+.frsAutoUp{background-image:url(/imgpro/arrow/scroll_up_yellow.gif);}
+.autoRst{border:solid 1px #BEC7D8;width:248px; position:absolute; z-index:2;background-color:#fff;overflow:hidden;left:0;*top:22px; top:21px}
+.autoRst ul{margin-bottom:-1px}
+.autoRst ul .selected{background-color:#F0F5F8;color:#888888;}
+.autoRst ul .selectedname{background-color:#F0F5F8;}
+.autoRst ul li{border-bottom:solid 1px #eee;line-height:1.8;overflow:hidden;padding-left:5px;}
+.autoRst ul li a{display:block;}
+.autoRst ul li a:hover{display:block;text-decoration:none;}
+
+.radio-choose{padding:2px; width:310px; position:absolute; left:-65px; top:23px;*top:24px}
+.radio-choose .tips{background-color:#F0F5F8; padding:0 5px; line-height:2; overflow:hidden;zoom:1}
+.radio-choose .tips #tipsBtn{padding-top:2px}
+.radio-choose .holder{overflow-x:hidden;overflow-y:scroll; border:solid 1px #EFF1EE;height:98px}
+.radio-choose .holder ul{margin-right:-10px}
+.radio-choose .holder label{font-weight:normal; color:#666}
+.radio-choose .holder li{padding-left:5px; line-height:24px; height:24px}
+.radio-choose .holder li .userCell{width:95px; overflow:hidden;text-overflow:ellipsis;display:inline-block;float:left;}
+.radio-choose .actionBtns{padding:5px}
+/*-- friendl elector --*/	
+#write_name {background:#FFFFFF url(/imgpro/bg/magglass.gif) no-repeat scroll 3px 50%; padding-left:17px;}
+.friendlist_elector{vertical-align:top;position:relative;width:359px}
+.friendlist_elector .friend_list,.friendlist_elector .friend_add {line-height:22px;overflow-x:hidden;overflow-y:scroll;float:left;width:178px;height:154px;border-bottom:solid 1px #BEC7D8;border-right:solid 1px #BEC7D8;}
+.friendlist_elector .friend_list{border-left:solid 1px #BEC7D8; background:#F0F5F8;}
+.friendlist_elector .friend_list ul {}
+.friendlist_elector .friend_list li {display:block;}
+.friendlist_elector .friend_list .choose {background:url(/imgpro/bg/choose.gif) no-repeat 145px center; padding-left:6px;}
+.friendlist_elector .friend_list li a,.friendlist_elector .friend_list li a:hover { height:22px; display:block;padding:0 6px 0;text-decoration:none;color:#000;}
+.friendlist_elector .friend_list li a:hover {background:#F8E6AC url(/imgpro/bg/friend_list_bg.gif) no-repeat 145px center; }
+.friendlist_elector .friend_add {border-left:none;}
+.friendlist_elector .friend_add ul {}
+.friendlist_elector .friend_add li {display:block;padding-left:6px;clear:both;}
+.friendlist_elector .friend_add li span {float:left;}
+.friendlist_elector .friend_add li em {float:right;}
+.friendlist_elector .friend_add li em img {margin:6px 6px 0;}
+.friendlist_elector .friend_add p {color:#888888; padding-left:6px;}
+.friendlist_elector .functionbutton {clear:both; padding:8px 0 0;}
+.destext { color:#000000; padding-top:10px; padding-bottom:10px; border-bottom:1px #CEE1EE solid; margin-bottom:10px;zoom:1;}
+
+/*friendSelect for Edit
+----------------------------*/
+.friendSelectorBox .selector{ border:1px solid #ccc; background-color:#fff; height:340px; overflow:scroll; overflow-x:hidden; margin-bottom:5px;}
+.friendSelectorBox .selector ul{padding:0.5em;}
+.friendSelectorBox .selector ul li{ width:134px; height:64px; overflow:hidden; float:left;  border:0 ; padding:0; margin:3px; margin-right:3px; }
+
+.friendSelectorBox .selector ul li a{ display:block; height:64px; padding:4px;}
+.friendSelectorBox .selector ul li a:hover{ text-decoration:none; background:url(/img/friend_selector_hover_bg.gif) top left no-repeat;}
+
+.friendSelectorBox .selector ul li a:hover h4{ color:#333;}
+.friendSelectorBox .selector ul li a:hover span.atnet{ color:#666;}
+
+.friendSelectorBox .selector ul li a:hover span.picbox{ background-color:#fff;}
+
+.friendSelectorBox .selector ul li a h4{ color:#333;}
+.friendSelectorBox .selector ul li a span.atnet{ color:#ccc;}
+
+.friendSelectorBox .selector ul li a span.picbox{ width:50px; height:50px; padding:2px; margin-right:3px; border:1px #ccc solid; float:left; border-color:#b1c1e1;}
+
+.friendSelectorBox .selector ul li a span.picbox span.pic{ background-color:#fff; background-position:center; background-repeat:no-repeat; width:50px; height:50px; display:block; }
+
+.friendSelectorBox .selector ul li a span.picbox img.added{ display:none;}
+
+.friendSelectorBox .selector ul li.select,
+.friendSelectorBox .selector ul li.select a:hover{ background:url(/img/friend_selector_bg.gif) top left no-repeat;}
+.friendSelectorBox .selector ul li.select a h4,
+.friendSelectorBox .selector ul li.select a:hover h4{ color:#fff;}
+.friendSelectorBox .selector ul li.select a:hover span.atnet{ color:#ccc;}
+.friendSelectorBox .selector ul li.select a span.picbox,
+.friendSelectorBox .selector ul li.select a:hover span.picbox{ background:#8497C0;}
+.friendSelectorBox .selector ul li.select a span.picbox span.pic{ background-position:center; background-repeat:no-repeat; width:50px; height:50px; }
+.friendSelectorBox .selector ul li.select a span.picbox span.pic img.added{ display:block; padding-top:37px;}
+
+/*--2009.1.9new friends selector  --*/
+.allfriendslist{ border-top: 1px #CEE1EE solid; background-color:#E3EEF8; }
+.friendsgroup-sidebar{background-color:#E3EEF8;}
+.friendSelectorBox .selectfilter {line-height:22px;margin-bottom:10px;}
+
+.n-f-s {}
+.n-f-s .function {float:left;width:50%;color:#808080;}
+.n-f-s .function span {display:block; float:left; margin-right:20px;line-height:25px;}
+.n-f-s .function .function_nav_up a,.school-list .function_nav_down a {width:66px;height:25px;padding:0 0 0 6px;}
+.n-f-s .function .function_nav_up a {display:block;background:url(/imgpro/bg/function_nav_up.gif) no-repeat 60px 10px;}
+.school-list .function_nav_down {background:url(/imgpro/bg/function_nav_bg.gif) no-repeat right bottom;}
+.school-list .function_nav_down a {line-height:25px; display:block;background:url(/imgpro/bg/function_nav_down.png) no-repeat left top;}
+.school-list {width:138px;position:absolute;}
+.school-list .school-list_title {border-bottom:1px #CCCCCC solid; color:#888888;margin-bottom:5px; padding:5px 0 8px;}
+.school-list ul {overflow-x:hidden;overflow-y:scroll;border:1px #3777BC solid;border-top:none;padding:0 4px 0 6px;background-color:#ffffff;height:207px;}
+.school-list li {height:19px;line-height:19px;overflow:hidden;}
+.school-list li a:link {color:#000000;text-decoration:none;}
+.school-list li a:visited {color:#000000;text-decoration:none;}
+.school-list li a:hover {text-decoration:underline;}
+
+.state {float:right;width:50%;margin-bottom:5px;}
+.state ul {list-style:none;}
+.state li {display:inline;padding:0;margin: 0;}
+.state a {float:right;text-decoration:none;padding:0 0 0 3px;margin: 0 5px 0 0;}
+.state a span {float:left;display:block;padding: 0px 7px 0px 5px;line-height:19px;}
+.state a span {float:none;}
+*+html .state a span {line-height:21px;}
+.state a:hover span {text-decoration: none;color:#FFFFFF;background:url(/imgpro/bg/friends_selecot_state_R.gif) no-repeat right top;}
+.state a:hover {background:url(/imgpro/bg/friends_selecot_state_L.gif) no-repeat left top;}
+.state a:hover span {}
+.state .onstate a {color:#FFFFFF;background:url(/imgpro/bg/friends_selecot_state_L.gif) no-repeat left top;line-height:14px;}
+.state .onstate span {background:url(/imgpro/bg/friends_selecot_state_R.gif) no-repeat right top;color:#fff}
+.state em{font-style:inherit;font-weight:inherit}
+
+.closebnt a {background:url(/imgpro/bg/close_window.gif) no-repeat left top; width:17px;height:17px;display:block;}
+.closebnt a:hover {background:url(/imgpro/bg/close_window.gif) no-repeat left bottom;}
+.selectorclose {background-color:#F6F6F6;padding:3px;}
+#sub-nav {padding-left:10px;}
+
+

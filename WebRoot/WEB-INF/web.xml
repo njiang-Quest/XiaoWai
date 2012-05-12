@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.LoginServlet</servlet-class>
+  	
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.FileUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegistServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.RegistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PersonalPageServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.PersonalPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReadPassageServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.ReadPassageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HomepageRefreshServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.HomepageRefreshServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageSendServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.MessageSendServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RefreshVisitorsServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.RefreshVisitorsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FreshNewsReadServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.FreshNewsReadServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ErshouShouyeSearchServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.ErshouShouyeSearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ErshouSearchFromPriceServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.ErshouSearchFromPriceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ErshouSearchFromtypeServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.ErshouSearchFromtypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ErshouInsertComServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.ErshouInsertComServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ErshouSearchZidingyiPriceServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.ErshouSearchZidingyiPriceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ErshouDeleteComServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.ErshouDeleteComServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ErshouUpdateComservlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.ErshouUpdateComservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ErshouManagerServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.ErshouManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ErshouSearchOneComServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.ErshouSearchOneComServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StoreSearchComfromstoreid</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.StoreSearchComfromstoreid</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StoreSearchStorefromtype</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.StoreSearchStorefromtype</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StoreComOrderServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.StoreComOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StoreInsertComorderServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.StoreInsertComorderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StoreSearchAllStore</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.StoreSearchAllStore</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AlbumSearchMyselfServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.AlbumSearchMyselfServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AlbumSearchFriendServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.AlbumSearchFriendServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AlbumCreateServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.AlbumCreateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PhotoSearchFromalbidServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.PhotoSearchFromalbidServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AlbumUploadPhotoServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.AlbumUploadPhotoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AlbumofFriendServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.AlbumofFriendServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AlbumPhotoSearchFromalbidServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.AlbumPhotoSearchFromalbidServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ErshouShangchuantupian</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.ErshouShangchuantupian</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AlbumUpdateAlbimgServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.AlbumUpdateAlbimgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StoreSearchFromtitleServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.StoreSearchFromtitleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StoreComSearchFromtitleServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.StoreComSearchFromtitleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StoreSearchFromtitleAndtype</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.StoreSearchFromtitleAndtype</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchUserServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.SearchUserServlet</servlet-class>
+  </servlet>
+
+  
+  
+  
+  
+  
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>YuehuiCreateServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.YuehuiCreateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>YueHuiSearchServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.YueHuiSearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>YuehuiXiangyingServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.YuehuiXiangyingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>YuehuiMyAppintmentServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.YuehuiMyAppintmentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>YuehuiAgreeServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.YuehuiAgreeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>YuehuiMyxiangyingServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.YuehuiMyxiangyingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendSearchServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.FriendSearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendAddFenzuServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.FriendAddFenzuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendAjaxSearchServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.FriendAjaxSearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendModiffenzuServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.FriendModiffenzuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendDeleFtypeServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.FriendDeleFtypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FrienddeleFriend</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.FrienddeleFriend</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>YuehuiSousuoServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.YuehuiSousuoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendLoveServelet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.FriendLoveServelet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendSousuoServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.FriendSousuoServlet</servlet-class>
+  </servlet>
+  <servlet>
+		<servlet-name>SearchFriendServlet</servlet-name>
+		<servlet-class>com.csu.xiaowai.servlet.SearchFriendServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendAddFriendServlet</servlet-name>
+    <servlet-class>com.csu.xiaowai.servlet.FriendAddFriendServlet</servlet-class>
+  </servlet>
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <url-pattern>/FileUploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegistServlet</servlet-name>
+    <url-pattern>/RegistServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonalPageServlet</servlet-name>
+    <url-pattern>/PersonalPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReadPassageServlet</servlet-name>
+    <url-pattern>/ReadPassageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HomepageRefreshServlet</servlet-name>
+    <url-pattern>/HomepageRefreshServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageSendServlet</servlet-name>
+    <url-pattern>/MessageSendServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RefreshVisitorsServlet</servlet-name>
+    <url-pattern>/RefreshVisitorsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FreshNewsReadServlet</servlet-name>
+    <url-pattern>/FreshNewsReadServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+
+ <servlet-mapping>
+    <servlet-name>ErshouShouyeSearchServlet</servlet-name>
+    <url-pattern>/ErshouShouyeSearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ErshouSearchFromPriceServlet</servlet-name>
+    <url-pattern>/ErshouSearchFromPriceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ErshouSearchFromtypeServlet</servlet-name>
+    <url-pattern>/ErshouSearchFromtypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ErshouInsertComServlet</servlet-name>
+    <url-pattern>/ErshouInsertComServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ErshouSearchZidingyiPriceServlet</servlet-name>
+    <url-pattern>/ErshouSearchZidingyiPriceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ErshouDeleteComServlet</servlet-name>
+    <url-pattern>/ErshouDeleteComServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ErshouUpdateComservlet</servlet-name>
+    <url-pattern>/ErshouUpdateComservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ErshouManagerServlet</servlet-name>
+    <url-pattern>/ErshouManagerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ErshouSearchOneComServlet</servlet-name>
+    <url-pattern>/ErshouSearchOneComServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StoreSearchComfromstoreid</servlet-name>
+    <url-pattern>/StoreSearchComfromstoreid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StoreSearchStorefromtype</servlet-name>
+    <url-pattern>/StoreSearchStorefromtype</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StoreComOrderServlet</servlet-name>
+    <url-pattern>/StoreComOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StoreInsertComorderServlet</servlet-name>
+    <url-pattern>/StoreInsertComorderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StoreSearchAllStore</servlet-name>
+    <url-pattern>/StoreSearchAllStore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlbumSearchMyselfServlet</servlet-name>
+    <url-pattern>/AlbumSearchMyselfServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlbumSearchFriendServlet</servlet-name>
+    <url-pattern>/AlbumSearchFriendServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlbumCreateServlet</servlet-name>
+    <url-pattern>/AlbumCreateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PhotoSearchFromalbidServlet</servlet-name>
+    <url-pattern>/PhotoSearchFromalbidServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlbumUploadPhotoServlet</servlet-name>
+    <url-pattern>/AlbumUploadPhotoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlbumofFriendServlet</servlet-name>
+    <url-pattern>/AlbumofFriendServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlbumPhotoSearchFromalbidServlet</servlet-name>
+    <url-pattern>/AlbumPhotoSearchFromalbidServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ErshouShangchuantupian</servlet-name>
+    <url-pattern>/ErshouShangchuantupian</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlbumUpdateAlbimgServlet</servlet-name>
+    <url-pattern>/AlbumUpdateAlbimgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StoreSearchFromtitleServlet</servlet-name>
+    <url-pattern>/StoreSearchFromtitleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StoreComSearchFromtitleServlet</servlet-name>
+    <url-pattern>/StoreComSearchFromtitleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StoreSearchFromtitleAndtype</servlet-name>
+    <url-pattern>/StoreSearchFromtitleAndtype</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchUserServlet</servlet-name>
+    <url-pattern>/SearchUserServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet-mapping>
+    <servlet-name>YuehuiCreateServlet</servlet-name>
+    <url-pattern>/YuehuiCreateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>YueHuiSearchServlet</servlet-name>
+    <url-pattern>/YueHuiSearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>YuehuiXiangyingServlet</servlet-name>
+    <url-pattern>/YuehuiXiangyingServlet</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+    <servlet-name>YuehuiMyAppintmentServlet</servlet-name>
+    <url-pattern>/YuehuiMyAppintmentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>YuehuiAgreeServlet</servlet-name>
+    <url-pattern>/YuehuiAgreeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>YuehuiMyxiangyingServlet</servlet-name>
+    <url-pattern>/YuehuiMyxiangyingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendSearchServlet</servlet-name>
+    <url-pattern>/FriendSearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendAddFenzuServlet</servlet-name>
+    <url-pattern>/FriendAddFenzuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendAjaxSearchServlet</servlet-name>
+    <url-pattern>/FriendAjaxSearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendModiffenzuServlet</servlet-name>
+    <url-pattern>/FriendModiffenzuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendDeleFtypeServlet</servlet-name>
+    <url-pattern>/FriendDeleFtypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FrienddeleFriend</servlet-name>
+    <url-pattern>/FrienddeleFriend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>YuehuiSousuoServlet</servlet-name>
+    <url-pattern>/YuehuiSousuoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendLoveServelet</servlet-name>
+    <url-pattern>/FriendLoveServelet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendSousuoServlet</servlet-name>
+    <url-pattern>/FriendSousuoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+		<servlet-name>SearchFriendServlet</servlet-name>
+		<url-pattern>/SearchFriendServlet</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendAddFriendServlet</servlet-name>
+    <url-pattern>/FriendAddFriendServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+
+
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,93 @@
+/* color */
+a,a:link{}
+a:visited{}
+a:hover{}
+body{color:#333;}
+.tabs-holder .tabpanel a{color:#005EAC;}
+.tabs-holder .tabpanel a:visited{color:#005EAC;}
+.tabs-holder .tabpanel a:hover{color:#333;}
+.tabs-holder .tabpanel .current a{color:#333;}
+.tabs-holder .tabpanel .current a:hover,.tabs-holder .tabpanel .current a:visited{color:#333;}
+.tabs-holder .tabpanel .switch a:hover{color:#005EAC;}
+.filter li.c a{color:#fff;}
+.filter li.c a:hover{color:#fff;}
+.profile-avatar ul.avarar-tabs li.selected a{color:#000;}
+.profile-summary dt{color:#808080;}
+.gift-list li .from{color:#888;}
+div.statuscmtitem{color:#333;}
+.reply-adding .reply-nav .mincmtcount{color:#CCC;}
+.reply-adding .status-count.full{color:red}
+.newsfeed-empty{color:#808080;}
+.newsfeed-empty-ajax{color:#333;}
+.m-editor-submit label{color:#888;}
+.m-editor .m-editor-action span.m-editor-photo{color:#808080;}
+.super-menu li a:hover{color:#fff;}
+
+/* border */
+.tabs-holder{border-bottom:1px solid #A0BEDC;}
+.tabs-holder .tabpanel a{border-bottom:1px solid #A0BEDC;}
+.tabs-holder .tabpanel .current a{border:1px solid #A0BEDC;border-bottom:1px solid #fff;}
+.tabs-holder .tabpanel .switch a{border-bottom:0 none;}
+.mod{border:1px solid #CEE1EE;}
+.filter{border-bottom:1px solid #CEE1EE;}
+.filter li.c a{border:1px solid #005EAC;}
+#album .figure-list .avatar{border:1px solid #BBC9E2;}
+.profile-purikura{border:1px solid #EACACC;}
+.profile-avatar ul.avarar-tabs{border-top:1px solid #EACACC;}
+.profile-actions .actions a.action{border-right:1px solid #d8dfea;border-bottom:0 none;}
+.profile-actions #make_avatar{border-right:0 none;}
+.profile-actions .actions{border-bottom:1px solid #D8DFEA;}
+.viewer-actions a{border-bottom:1px solid #D8DFEA;}
+div.statuscmtitem{border-bottom:1px solid #E6EFF7;}
+.newsfeed-empty-ajax{border:1px solid #e2c822;}
+.more-feeds a{border-top:1px solid #E3EEF8;}
+.talk-box .box{border:1px solid #CEE1EE;}
+.cmt-list .comment{border-bottom:1px solid #E3EEF8;}
+.cmt-list .comment .cmt-body .actions{border-bottom:1px solid #D8DFEA;}
+.super-menu .menu-item{border:1px solid #005eac;}
+.super-menu li a{border-bottom:1px solid #d8dfea;}
+
+/* background */
+.tabs-holder .tabpanel a{background:#E3EEF8;}
+.tabs-holder .tabpanel a:hover{background:#CEE1EE;}
+.tabs-holder .tabpanel .current a{background:#fff;}
+.tabs-holder .tabpanel .current a:hover,.tabs-holder .tabpanel .current a:visited{background:#fff;}
+.tabs-holder .tabpanel .switch a{background:transparent;}
+.tabs-holder .tabpanel .switch a:hover{background:transparent;}
+.mod-header{background:#F0F5F8;}
+.filter li.c a{background:#4B84C4;}
+.profile-avatar ul.avarar-tabs{background-color:#FFF;}
+.profile-avatar ul.avarar-tabs li{background:url() no-repeat left -33px;}
+.profile-avatar ul.avarar-tabs li a{background:url() no-repeat right -33px ;}
+.profile-avatar ul.avarar-tabs li.selected{background-position:left -64px;}
+.profile-avatar ul.avarar-tabs li.selected a{background:url() no-repeat right -64px ;}
+.profile-summary{background:#ECEFF5;}
+.min-cmtbox{background:url(../personpage_img/box_bg.gif) no-repeat}
+div.statuscmtitem{background:#EBF3F7;}
+div.cmt-adding{background:#EFF8F7;}
+.newsfeed-empty-ajax{background-color:#feffcf;}
+.more-feeds a{background:#F0F5F8;}
+.more-feeds a:hover{background:#E3EEF8;}
+.talk-box .box{background:#F0F5F8;}
+.cmt-list .comment .super-actions .arrow{background:url() no-repeat -36px -331px;}
+.cmt-list .comment .super-actions .arrow:hover{background-position:-36px -347px;}
+.super-menu .menu-item{background:#fff;}
+.super-menu li a:hover{background:#005eac}
+
+/* padding */
+.tabs-holder .tabpanel a{padding:6px 19px 6px 20px;*padding:8px 19px 4px 20px;_padding:7px 19px 5px 20px;}
+.tabs-holder .tabpanel .current a{padding:5px 19px 6px 20px;*padding:7px 19px 4px 20px;_padding:6px 19px 5px 20px;}
+.tabs-holder .tabpanel .switch a{padding:0;}
+.mod-header{padding:5px 10px;}
+.mod-body{padding:10px 0 0 10px;width:188px;}
+#album .figure-list li{padding:0 10px 10px 0;}
+#spFriends .figure-list li{padding:0 10px 10px 0;}
+.people-list li{padding:0 14px 10px 0;}
+.filter{padding-bottom:10px;margin-bottom:10px;}
+.filter li a{padding:3px 9px;}
+.filter li.c a{padding:2px 8px;}
+.blog-list li{padding:0 10px 10px 0;}
+.share-list li{padding:0 10px 10px 0;}
+.gift-list li{padding:0 20px 10px 10px;}
+.talk-box .box{padding:10px 10px 6px;}
+.talk-box .box-header{padding-bottom:10px;}

@@ -1,0 +1,490 @@
+/** Feeds RichList by jingwei.li **/
+ul.richlist.feeds {
+	word-wrap: break-word;
+	*zoom: 1;
+}
+ul.richlist.feeds li {
+	position: relative;
+	padding: 6px 0;
+	border-bottom: 1px solid #E3EEF8;
+	*zoom: expression(function(ele){
+		ele.style.zoom="1";
+		Expressions.hover(ele);
+	}(this));
+}
+ul.richlist.feeds li:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+ul.richlist.feeds li div.figure {
+	float: left;
+	margin-right: 10px;
+	*position: relative;
+	*z-index: 1;
+}
+ul.richlist.feeds li div.figure a.avatar {
+	display: block;
+	margin-bottom: 6px;
+	cursor: pointer;
+}
+ul.richlist.feeds li h3 {
+	margin-left: 60px;
+	margin-bottom: 5px;
+	margin-right: 30px;
+	line-height: 1.4em;
+	font-weight: normal;
+}
+ul.richlist.feeds li .user-group {
+	color: #808080;
+}
+ul.richlist.feeds li h3 .from {
+	font-size: 12px;
+	color: #888;
+}
+ul.richlist.feeds li h3 .from a:link, ul.richlist.feeds li h3 .from a:visited {
+	margin: 0 1px;
+}
+
+
+ul.richlist.feeds li h3 img {
+	vertical-align: text-bottom;
+	margin: 0 0.2ex;
+}
+ul.richlist.feeds li a.delete {
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 12px;
+	width: 18px;
+	height: 18px;
+	text-indent: -9999px;
+	background: url(/imgpro/icons/icon_btn_all.png) no-repeat -115px 0;
+	outline: none;
+}
+ul.richlist.feeds li:hover a.delete,
+ul.richlist.feeds li.hover a.delete {
+	display: block;
+}
+ul.richlist.feeds li a.delete:hover {
+	background-position: -133px 0;
+}
+ul.richlist.feeds li div.operation {
+	display: none;
+	position: absolute;
+	right: 20px;
+	top: 12px;
+	*zoom: expression(function(ele){
+		ele.style.zoom="1";
+		Expressions.hover(ele);
+	}(this));
+
+}
+ul.richlist.feeds li a.leave-message {
+	display: inline-block;
+	height: 20px;
+	width: 32px;
+	line-height: 20px;
+	background: url(/imgpro/icons/icon_btn_all.png) no-repeat left -609px;
+	padding-right: 18px;
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+	*display: inline;
+	*zoom: 1;
+}
+ul.richlist.feeds li div.figure {
+	*behavior: expression(function(ele){
+		ele.style.behavior=" ";
+		Expressions.hover(ele);
+	}(this));
+}
+ul.richlist.feeds li a.leave-message {
+	visibility: hidden;
+}
+ul.richlist.feeds li:hover a.leave-message,
+ul.richlist.feeds li.hover a.leave-message {
+	visibility: visible;
+}
+ul.richlist.feeds li div.operation div.legend {
+	width: 18px;
+	height: 18px;
+	text-indent: -9999px;
+	background: url(/imgpro/icons/dropdown-button.png) no-repeat 0 0;
+	outline: none;
+}
+ul.richlist.feeds li div.operation:hover div.legend,
+ul.richlist.feeds li div.operation.hover div.legend {
+	background-position: -18px 0;
+	cursor: pointer;
+}
+ul.richlist.feeds li:hover div.operation,
+ul.richlist.feeds li.hover div.operation {
+	display: block;
+}
+ul.richlist.feeds li div.operation ul.menu {
+	display: none;
+	position: absolute;
+	right: 0;
+	white-space: nowrap;
+}
+ul.richlist.feeds li div.operation:hover ul.menu,
+ul.richlist.feeds li div.operation.hover ul.menu {
+	display: block;
+	*width: 40px;
+}
+ul.richlist.feeds li div.operation ul.menu li {
+	padding: 0;
+}
+ul.richlist.feeds li div.operation ul.menu li a {
+	display: block;
+	padding: 3px 8px;
+	border: 1px solid #84ABC6;
+}
+ul.richlist.feeds li div.operation ul.menu li a:hover {
+	background-color: #F0F5F8;
+}
+ul.richlist.feeds li div.details {
+	margin-left: 60px;
+}
+ul.richlist.feeds li div.details div.legend {
+	line-height: 2em;
+}
+ul.richlist.feeds li div.details div.legend span.duration {
+	margin-right: 1em;
+}
+ul.richlist.feeds li div.details div.legend span.seperator {
+	color: #4281C4;
+}
+ul.richlist.feeds li div.details img {
+	vertical-align: text-bottom;
+}
+ul.richlist.feeds li div.details span.duration {
+	color: #888;
+}
+ul.richlist.feeds li div.details a.share {
+	display: inline-block;
+	float: none;
+	border: 0;
+	width: auto;
+	padding: 0;
+	background: none;
+}
+ul.richlist.feeds li div.details a.share:hover {
+	color: #005eac;
+	text-decoration: underline;
+}
+ul.richlist.feeds li div.content {
+	position: relative;
+	margin-left: 60px;
+	margin-bottom: 5px;
+	color: #808080;
+	line-height: 1.6em;
+	overflow: hidden;
+	*zoom: 1;
+}
+ul.richlist.feeds li div.content ul.grid.thumbnails {
+	*zoom: 1;
+}
+ul.richlist.feeds li div.content ul.grid.thumbnails:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+ul.richlist.feeds li div.content ul.grid.thumbnails li {
+	float: left;
+	padding: 3px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	vertical-align: top;
+	border: 1px solid #bbc9e2;
+	*width: auto;
+}
+ul.richlist.feeds li div.content ul.grid.thumbnails li a img {
+	display: block;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+ul.richlist.feeds li div.content img.photo {
+	padding: 3px;
+	margin-right: 6px;
+	margin-bottom: 5px;
+	vertical-align: top;
+	border: 1px solid #bbc9e2;
+}
+ul.richlist.feeds li div.content a.more {
+	position: absolute;
+	top: 50%;
+	left: 350px;
+	margin-top: -15px;
+	width: 28px;
+	height: 29px;
+	margin-left: 10px;
+	text-indent: -9999px;
+	background: url(/imgpro/icons/icon_btn_all.png) no-repeat -27px -420px;
+	outline: none;
+}
+ul.richlist.feeds li div.content a.more:hover {
+	background-position: 0 -420px;
+}
+ul.richlist.feeds li div.content q {
+	line-height: 1.5em;
+	*zoom: expression(function(ele) {
+		ele.style.zoom = "1";
+		ele.appendChild(document.createElement("after"));
+		ele.insertBefore(document.createElement("before"), ele.firstChild);
+	}(this));
+}
+ul.richlist.feeds li div.content q:before,
+ul.richlist.feeds li div.content q before
+{
+	display: inline-block;
+	width: 10px;
+	height: 7px;
+	margin-right: 0.5ex;
+	vertical-align: top;
+	background: url(/imgpro/icons/icon_btn_all.png) no-repeat 0 -333px;
+	_font-size: 0;
+}
+ul.richlist.feeds li div.content q:after,
+ul.richlist.feeds li div.content q after {
+	display: inline-block;
+	width: 10px;
+	height: 7px;
+	margin-left: 0.5ex;
+	background: url(/imgpro/icons/icon_btn_all.png) no-repeat -10px -333px;
+	_font-size: 0;
+}
+ul.richlist.feeds li div.content div.video {
+	position: relative;
+	width: 120px;
+	height: 90px;
+	margin-bottom: 0.5em;
+	background: url(/imgpro/media/p_bg.png) no-repeat center center;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+ul.richlist.feeds li div.content div.video a {
+	display: block;
+	height: 100%;
+	text-indent: -9999px;
+	outline: none;
+	background: url(/imgpro/icons/icon_btn_all.png) no-repeat -70px -200px;
+	opacity: 0.9;
+	*filter: alpha(opacity=90);
+}
+ul.richlist.feeds li div.content div.video a:hover {
+	display: block;
+	background-position: -70px -280px;
+	text-indent: -9999px;
+}
+ul.richlist.feeds li div.content div.audio a {
+	display: block;
+	width: 102px;
+	height: 29px;
+	text-indent: -9999px;
+	background: url(/imgpro/media/p_m.png) no-repeat left top;
+}
+ul.richlist.feeds li div.content div.audio a:hover {
+	background-position: left -29px;
+}
+ul.richlist.feeds li div.figure {
+	float: left;
+	position: relative;
+	margin-right: 10px;
+}
+ul.richlist.feeds li meter.rating {
+	margin-bottom: 5px;
+}
+ul.richlist.feeds li div.figure div.leave-message {
+	display: hidden;
+	position: absolute;
+	z-index: 200;
+	width: 230px;
+}
+div.leave-message {
+	background-color: #FFF;
+	border: 1px solid #84ABC6;
+}
+div.leave-message div.header {
+	position: relative;
+	background-color: #F0F5F8;
+	padding: 0 10px;
+	margin-bottom: 10px;
+	line-height: 22px;
+}
+div.leave-message h5 {
+	display: inline-block;
+	padding-left: 22px;
+	font-size: 12px;
+	color: #555;
+	background: url(/imgpro/icons/icon_btn_all.png) no-repeat -135px -605px;
+}
+div.leave-message a.close {
+	position: absolute;
+	display: block;
+	right: 10px;
+	top: 5px;
+	width: 13px;
+	height: 13px;
+	text-indent: -9999px;
+	outline: 0;
+	background: url(/imgpro/icons/icon_btn_all.png) no-repeat -63px -421px;
+}
+div.leave-message a.close:hover {
+	background-position: -63px -434px;
+}
+div.leave-message div.section {
+	padding: 0 10px;
+	margin-bottom: 5px;
+}
+div.leave-message div.section textarea {
+	border: 1px solid #84ABC6;
+	width: 200px;
+	height: 80px;
+}
+div.leave-message div.footer {
+	padding: 0 10px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	*zoom: 1;
+	_width: 210px;
+}
+div.leave-message div.footer:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+div.leave-message div.footer span.privacy {
+	float: left;
+}
+div.leave-message div.footer span.submit {
+	float: right;
+}
+
+
+ul.richlist.other-feeds li {
+	padding: 8px;
+}
+ul.richlist.other-feeds li h3 {
+	margin-left: 20px;
+	font-size: 12px;
+}
+ul.richlist.other-feeds li div.content {
+	margin-left: 20px;
+}
+ul.richlist.other-feeds li div.details {
+	position: absolute;
+	left: 10px;
+	margin-left: 0;
+	top: 10px;
+}
+ul.feeds li.page-flyer {
+	padding: 10px 30px 10px 10px;
+	background-color: #F0F5F8;
+	*margin-top: -2px;
+}
+ul.feeds li.page-flyer a.follow { display: inline; padding-left: 20px; line-height: 16px; background: url(/imgpro/icons/follow-add.gif) no-repeat left center; }
+ul.feeds li.page-flyer a.delete {
+	right: 10px;
+}
+ul.feeds li.page-flyer h4 img {
+	vertical-align: text-bottom;
+}
+ul.feeds li.page-flyer div.figure {
+	float: left;
+	margin-right: 10px;
+	*margin-right: 7px;
+}
+ul.feeds li.page-flyer div.figure img {
+	visibility: visible;
+}
+ul.feeds li.page-flyer div.article {
+	margin-left: 90px;
+}
+ul.feeds li.page-flyer div.article p {
+	line-height: 1.6em;
+	margin: 0.2em;
+}
+ul.feeds li.share div.sharesCount {
+	width: 48px;
+	border: 1px solid #DFD770;
+	background-color: #F5F3B7;
+	font-size: 12px;
+	color: #9F7B0F;
+	text-align: center;
+	padding: 12px 0;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+ul.feeds li.share a.share {
+	width: 50px;
+	height: 20px;
+	background: url(/imgpro/icons/share-button.png) no-repeat left top;
+	border: 0;
+	outline: 0;
+	text-indent: -9999px;
+}
+
+/* media blog by bo.hu */ 
+ul.richlist.feeds li div.content  div.blogMedia{
+	float:left;
+	margin-right:14px;
+	margin-top:6px;
+}
+
+/* hot share tab by bo.hu */
+ul.richlist.feeds li.share div.details img {
+	background:none;
+}
+
+div.share-home div.subnav-tabs {
+	margin-left:10px;		
+}
+
+div.share-home li div.details {
+	margin-left:66px;
+}
+
+div.share-home div.subnav-tabs ul.tabs {
+	background:transparent none repeat scroll 0 0;
+	margin-bottom:10px;
+}
+
+div.share-home div.subnav-tabs ul.tabs li {
+	display:inline-block;
+}
+
+div.share-home div.subnav-tabs ul.tabs li a {
+	display:block;
+	line-height:18px;
+	padding:0 10px;
+}
+
+div.share-home div.subnav-tabs ul.tabs li.selected a {
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	background-color:#4B84C4;
+	border-color:#025FAD #2370B8 #3A7CC0;
+	border-style:solid;
+	border-width:1px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+
+
+
+/* letter vip icon for news feed list */
+ul.richlist.feeds a.letter-icon {background:url(/imgpro/editor/letter.gif) no-repeat; width:16px;height:16px; text-indent:-9999px;display:inline-block;margin-left:6px;}
